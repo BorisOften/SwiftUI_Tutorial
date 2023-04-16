@@ -12,6 +12,7 @@
 		81AA305629EC1AB100827035 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81AA305529EC1AB100827035 /* Assets.xcassets */; };
 		81AA305929EC1AB100827035 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81AA305829EC1AB100827035 /* Preview Assets.xcassets */; };
 		81AA306029EC273F00827035 /* TextTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA305F29EC273F00827035 /* TextTutorial.swift */; };
+		81AA306229EC31EA00827035 /* ShapesTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA306129EC31EA00827035 /* ShapesTutorial.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		81AA305529EC1AB100827035 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81AA305829EC1AB100827035 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		81AA305F29EC273F00827035 /* TextTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTutorial.swift; sourceTree = "<group>"; };
+		81AA306129EC31EA00827035 /* ShapesTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesTutorial.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				81AA305129EC1AAF00827035 /* SwiftUI_TutorialApp.swift */,
 				81AA305329EC1AB000827035 /* ContentView.swift */,
 				81AA305F29EC273F00827035 /* TextTutorial.swift */,
+				81AA306129EC31EA00827035 /* ShapesTutorial.swift */,
 				81AA305529EC1AB100827035 /* Assets.xcassets */,
 				81AA305729EC1AB100827035 /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 				81AA305429EC1AB000827035 /* ContentView.swift in Sources */,
 				81AA306029EC273F00827035 /* TextTutorial.swift in Sources */,
 				81AA305229EC1AB000827035 /* SwiftUI_TutorialApp.swift in Sources */,
+				81AA306229EC31EA00827035 /* ShapesTutorial.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
