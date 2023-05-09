@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81A98EC029F4A95B00BEC2DF /* IconTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A98EBF29F4A95B00BEC2DF /* IconTutorial.swift */; };
 		81AA305229EC1AB000827035 /* SwiftUI_TutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA305129EC1AAF00827035 /* SwiftUI_TutorialApp.swift */; };
 		81AA305429EC1AB000827035 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA305329EC1AB000827035 /* ContentView.swift */; };
 		81AA305629EC1AB100827035 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81AA305529EC1AB100827035 /* Assets.xcassets */; };
 		81AA305929EC1AB100827035 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81AA305829EC1AB100827035 /* Preview Assets.xcassets */; };
 		81AA306029EC273F00827035 /* TextTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA305F29EC273F00827035 /* TextTutorial.swift */; };
 		81AA306229EC31EA00827035 /* ShapesTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA306129EC31EA00827035 /* ShapesTutorial.swift */; };
+		81AA306829F475AD00827035 /* ColorsTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA306729F475AD00827035 /* ColorsTutorial.swift */; };
+		81AA306A29F4777100827035 /* GradientTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA306929F4777100827035 /* GradientTutorial.swift */; };
+		81F0103F2A06807100840292 /* FramesTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F0103E2A06807100840292 /* FramesTutorial.swift */; };
+		81F010412A06861000840292 /* BackgroundAndOverlayTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F010402A06861000840292 /* BackgroundAndOverlayTutorial.swift */; };
+		81F010432A068D3900840292 /* StacksTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F010422A068D3900840292 /* StacksTutorial.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		81A98EBF29F4A95B00BEC2DF /* IconTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTutorial.swift; sourceTree = "<group>"; };
 		81AA304E29EC1AAF00827035 /* SwiftUI_Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AA305129EC1AAF00827035 /* SwiftUI_TutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_TutorialApp.swift; sourceTree = "<group>"; };
 		81AA305329EC1AB000827035 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +30,11 @@
 		81AA305829EC1AB100827035 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		81AA305F29EC273F00827035 /* TextTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTutorial.swift; sourceTree = "<group>"; };
 		81AA306129EC31EA00827035 /* ShapesTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesTutorial.swift; sourceTree = "<group>"; };
+		81AA306729F475AD00827035 /* ColorsTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTutorial.swift; sourceTree = "<group>"; };
+		81AA306929F4777100827035 /* GradientTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientTutorial.swift; sourceTree = "<group>"; };
+		81F0103E2A06807100840292 /* FramesTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramesTutorial.swift; sourceTree = "<group>"; };
+		81F010402A06861000840292 /* BackgroundAndOverlayTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlayTutorial.swift; sourceTree = "<group>"; };
+		81F010422A068D3900840292 /* StacksTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksTutorial.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,12 @@
 				81AA305329EC1AB000827035 /* ContentView.swift */,
 				81AA305F29EC273F00827035 /* TextTutorial.swift */,
 				81AA306129EC31EA00827035 /* ShapesTutorial.swift */,
+				81AA306729F475AD00827035 /* ColorsTutorial.swift */,
+				81AA306929F4777100827035 /* GradientTutorial.swift */,
+				81A98EBF29F4A95B00BEC2DF /* IconTutorial.swift */,
+				81F0103E2A06807100840292 /* FramesTutorial.swift */,
+				81F010402A06861000840292 /* BackgroundAndOverlayTutorial.swift */,
+				81F010422A068D3900840292 /* StacksTutorial.swift */,
 				81AA305529EC1AB100827035 /* Assets.xcassets */,
 				81AA305729EC1AB100827035 /* Preview Content */,
 			);
@@ -144,9 +162,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AA305429EC1AB000827035 /* ContentView.swift in Sources */,
+				81F010412A06861000840292 /* BackgroundAndOverlayTutorial.swift in Sources */,
+				81F010432A068D3900840292 /* StacksTutorial.swift in Sources */,
+				81F0103F2A06807100840292 /* FramesTutorial.swift in Sources */,
+				81A98EC029F4A95B00BEC2DF /* IconTutorial.swift in Sources */,
 				81AA306029EC273F00827035 /* TextTutorial.swift in Sources */,
+				81AA306829F475AD00827035 /* ColorsTutorial.swift in Sources */,
 				81AA305229EC1AB000827035 /* SwiftUI_TutorialApp.swift in Sources */,
 				81AA306229EC31EA00827035 /* ShapesTutorial.swift in Sources */,
+				81AA306A29F4777100827035 /* GradientTutorial.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

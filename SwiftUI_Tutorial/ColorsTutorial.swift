@@ -9,7 +9,17 @@ import SwiftUI
 
 struct ColorsTutorial: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        RoundedRectangle(cornerRadius: 24)
+            //.fill(Color.brown)
+            .fill(
+            )
+            
+            
+            
+            
+            
+            
+            .frame(width: 200, height: 300, alignment: .center)
     }
 }
 

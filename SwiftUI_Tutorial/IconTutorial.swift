@@ -9,7 +9,24 @@ import SwiftUI
 
 struct IconTutorial: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+//        Image(systemName: "heart")
+//            .resizable()
+//            //.aspectRatio(contentMode: .fill)
+//            .scaledToFit()
+//
+//
+//            .frame(width: 200, height: 300, alignment: .center)
+//            .clipped()
+        
+        Image("popcorn")
+            .resizable()
+        
+            .frame(width: 300, height: 200, alignment: .center)
+            .clipShape(
+                //Circle()
+                RoundedRectangle(cornerRadius: 23)
+            )
     }
 }
 
