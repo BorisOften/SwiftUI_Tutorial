@@ -26,6 +26,10 @@
 		81F010BE2A197FCE00840292 /* GridTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F010BD2A197FCE00840292 /* GridTutorial.swift */; };
 		81F010C02A19892F00840292 /* SafeAreaTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F010BF2A19892F00840292 /* SafeAreaTutorial.swift */; };
 		81F010C22A198B2500840292 /* ButtonTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F010C12A198B2500840292 /* ButtonTutorial.swift */; };
+		81F010FC2A22E5B300840292 /* StateTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F010FB2A22E5B300840292 /* StateTutorial.swift */; };
+		81F010FE2A22E91100840292 /* ExtractedFunctionTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F010FD2A22E91100840292 /* ExtractedFunctionTutorial.swift */; };
+		81F011002A22ED3300840292 /* ExtractSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F010FF2A22ED3300840292 /* ExtractSubview.swift */; };
+		81F011042A22F2A300840292 /* BindingTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F011032A22F2A300840292 /* BindingTutorial.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +53,10 @@
 		81F010BD2A197FCE00840292 /* GridTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridTutorial.swift; sourceTree = "<group>"; };
 		81F010BF2A19892F00840292 /* SafeAreaTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaTutorial.swift; sourceTree = "<group>"; };
 		81F010C12A198B2500840292 /* ButtonTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTutorial.swift; sourceTree = "<group>"; };
+		81F010FB2A22E5B300840292 /* StateTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateTutorial.swift; sourceTree = "<group>"; };
+		81F010FD2A22E91100840292 /* ExtractedFunctionTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFunctionTutorial.swift; sourceTree = "<group>"; };
+		81F010FF2A22ED3300840292 /* ExtractSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubview.swift; sourceTree = "<group>"; };
+		81F011032A22F2A300840292 /* BindingTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingTutorial.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,10 @@
 				81F010BD2A197FCE00840292 /* GridTutorial.swift */,
 				81F010BF2A19892F00840292 /* SafeAreaTutorial.swift */,
 				81F010C12A198B2500840292 /* ButtonTutorial.swift */,
+				81F010FB2A22E5B300840292 /* StateTutorial.swift */,
+				81F010FD2A22E91100840292 /* ExtractedFunctionTutorial.swift */,
+				81F010FF2A22ED3300840292 /* ExtractSubview.swift */,
+				81F011032A22F2A300840292 /* BindingTutorial.swift */,
 				81AA305529EC1AB100827035 /* Assets.xcassets */,
 				81AA305729EC1AB100827035 /* Preview Content */,
 			);
@@ -183,10 +195,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				81F010BE2A197FCE00840292 /* GridTutorial.swift in Sources */,
+				81F010FC2A22E5B300840292 /* StateTutorial.swift in Sources */,
 				81F010962A101D8D00840292 /* initAndEnumTutorial.swift in Sources */,
+				81F011002A22ED3300840292 /* ExtractSubview.swift in Sources */,
 				81F010942A0FB10200840292 /* PaddingAndSpacingTutorial.swift in Sources */,
 				81AA305429EC1AB000827035 /* ContentView.swift in Sources */,
 				81F010412A06861000840292 /* BackgroundAndOverlayTutorial.swift in Sources */,
+				81F010FE2A22E91100840292 /* ExtractedFunctionTutorial.swift in Sources */,
 				81F010432A068D3900840292 /* StacksTutorial.swift in Sources */,
 				81F010982A10228800840292 /* ForEachTutorial.swift in Sources */,
 				81F010C22A198B2500840292 /* ButtonTutorial.swift in Sources */,
@@ -199,6 +214,7 @@
 				81F010C02A19892F00840292 /* SafeAreaTutorial.swift in Sources */,
 				81AA306229EC31EA00827035 /* ShapesTutorial.swift in Sources */,
 				81AA306A29F4777100827035 /* GradientTutorial.swift in Sources */,
+				81F011042A22F2A300840292 /* BindingTutorial.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
