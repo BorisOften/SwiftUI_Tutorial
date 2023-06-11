@@ -30,6 +30,11 @@
 		81F010FE2A22E91100840292 /* ExtractedFunctionTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F010FD2A22E91100840292 /* ExtractedFunctionTutorial.swift */; };
 		81F011002A22ED3300840292 /* ExtractSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F010FF2A22ED3300840292 /* ExtractSubview.swift */; };
 		81F011042A22F2A300840292 /* BindingTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F011032A22F2A300840292 /* BindingTutorial.swift */; };
+		81F011062A23793500840292 /* IfElseTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F011052A23793500840292 /* IfElseTutorial.swift */; };
+		81F0113D2A2BC95D00840292 /* AnimationTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F0113C2A2BC95D00840292 /* AnimationTutorial.swift */; };
+		81F0113F2A2BCD2400840292 /* AnimationTiming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F0113E2A2BCD2400840292 /* AnimationTiming.swift */; };
+		81F011412A2BCFA300840292 /* TransitionTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F011402A2BCFA300840292 /* TransitionTutorial.swift */; };
+		81F011432A2BD2C300840292 /* SheetTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F011422A2BD2C300840292 /* SheetTutorial.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +62,11 @@
 		81F010FD2A22E91100840292 /* ExtractedFunctionTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFunctionTutorial.swift; sourceTree = "<group>"; };
 		81F010FF2A22ED3300840292 /* ExtractSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubview.swift; sourceTree = "<group>"; };
 		81F011032A22F2A300840292 /* BindingTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingTutorial.swift; sourceTree = "<group>"; };
+		81F011052A23793500840292 /* IfElseTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfElseTutorial.swift; sourceTree = "<group>"; };
+		81F0113C2A2BC95D00840292 /* AnimationTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTutorial.swift; sourceTree = "<group>"; };
+		81F0113E2A2BCD2400840292 /* AnimationTiming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTiming.swift; sourceTree = "<group>"; };
+		81F011402A2BCFA300840292 /* TransitionTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionTutorial.swift; sourceTree = "<group>"; };
+		81F011422A2BD2C300840292 /* SheetTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetTutorial.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +120,11 @@
 				81F010FD2A22E91100840292 /* ExtractedFunctionTutorial.swift */,
 				81F010FF2A22ED3300840292 /* ExtractSubview.swift */,
 				81F011032A22F2A300840292 /* BindingTutorial.swift */,
+				81F011052A23793500840292 /* IfElseTutorial.swift */,
+				81F0113C2A2BC95D00840292 /* AnimationTutorial.swift */,
+				81F0113E2A2BCD2400840292 /* AnimationTiming.swift */,
+				81F011402A2BCFA300840292 /* TransitionTutorial.swift */,
+				81F011422A2BD2C300840292 /* SheetTutorial.swift */,
 				81AA305529EC1AB100827035 /* Assets.xcassets */,
 				81AA305729EC1AB100827035 /* Preview Content */,
 			);
@@ -195,7 +210,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				81F010BE2A197FCE00840292 /* GridTutorial.swift in Sources */,
+				81F011432A2BD2C300840292 /* SheetTutorial.swift in Sources */,
 				81F010FC2A22E5B300840292 /* StateTutorial.swift in Sources */,
+				81F0113D2A2BC95D00840292 /* AnimationTutorial.swift in Sources */,
 				81F010962A101D8D00840292 /* initAndEnumTutorial.swift in Sources */,
 				81F011002A22ED3300840292 /* ExtractSubview.swift in Sources */,
 				81F010942A0FB10200840292 /* PaddingAndSpacingTutorial.swift in Sources */,
@@ -209,12 +226,15 @@
 				81F0109A2A1025FC00840292 /* ScrollViewTutorial.swift in Sources */,
 				81A98EC029F4A95B00BEC2DF /* IconTutorial.swift in Sources */,
 				81AA306029EC273F00827035 /* TextTutorial.swift in Sources */,
+				81F011412A2BCFA300840292 /* TransitionTutorial.swift in Sources */,
+				81F0113F2A2BCD2400840292 /* AnimationTiming.swift in Sources */,
 				81AA306829F475AD00827035 /* ColorsTutorial.swift in Sources */,
 				81AA305229EC1AB000827035 /* SwiftUI_TutorialApp.swift in Sources */,
 				81F010C02A19892F00840292 /* SafeAreaTutorial.swift in Sources */,
 				81AA306229EC31EA00827035 /* ShapesTutorial.swift in Sources */,
 				81AA306A29F4777100827035 /* GradientTutorial.swift in Sources */,
 				81F011042A22F2A300840292 /* BindingTutorial.swift in Sources */,
+				81F011062A23793500840292 /* IfElseTutorial.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
