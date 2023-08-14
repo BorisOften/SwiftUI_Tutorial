@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8105C7082A7565A60086F52E /* EnviromentObjectTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8105C7072A7565A60086F52E /* EnviromentObjectTutorial.swift */; };
+		8105C70A2A756B540086F52E /* AppStorageTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8105C7092A756B540086F52E /* AppStorageTutorial.swift */; };
+		8105C73B2A770D4B0086F52E /* IntroViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8105C73A2A770D4B0086F52E /* IntroViews.swift */; };
+		8105C73D2A770EEB0086F52E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8105C73C2A770EEB0086F52E /* OnboardingView.swift */; };
+		8105C73F2A7E94800086F52E /* AsynImageTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8105C73E2A7E94800086F52E /* AsynImageTutorial.swift */; };
+		8105C74E2A7FC7CB0086F52E /* ButtonStyleTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8105C74D2A7FC7CB0086F52E /* ButtonStyleTutorial.swift */; };
+		8105C7502A7FCAB80086F52E /* BadgesTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8105C74F2A7FCAB70086F52E /* BadgesTutorial.swift */; };
+		815D010C2A6C1B45009F6577 /* ViewModelTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815D010B2A6C1B45009F6577 /* ViewModelTutorial.swift */; };
 		81A98EC029F4A95B00BEC2DF /* IconTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A98EBF29F4A95B00BEC2DF /* IconTutorial.swift */; };
 		81AA305229EC1AB000827035 /* SwiftUI_TutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA305129EC1AAF00827035 /* SwiftUI_TutorialApp.swift */; };
 		81AA305429EC1AB000827035 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA305329EC1AB000827035 /* ContentView.swift */; };
@@ -43,9 +51,22 @@
 		81F011842A47B99F00840292 /* ToggleTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F011832A47B99F00840292 /* ToggleTutorial.swift */; };
 		81F011862A51019600840292 /* PickerTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F011852A51019600840292 /* PickerTutorial.swift */; };
 		81F011882A51085E00840292 /* ColorPickerTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F011872A51085E00840292 /* ColorPickerTutorial.swift */; };
+		81F0118A2A510B6000840292 /* DatePickerTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F011892A510B6000840292 /* DatePickerTutorial.swift */; };
+		81F011952A5B66F900840292 /* TabViewTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F011942A5B66F900840292 /* TabViewTutorial.swift */; };
+		81F011972A63284700840292 /* SliderTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F011962A63284600840292 /* SliderTutorial.swift */; };
+		81F011992A6330F500840292 /* OnAppearTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F011982A6330F500840292 /* OnAppearTutorial.swift */; };
+		81F0119B2A6433F700840292 /* TapGestureTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F0119A2A6433F700840292 /* TapGestureTutorial.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8105C7072A7565A60086F52E /* EnviromentObjectTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviromentObjectTutorial.swift; sourceTree = "<group>"; };
+		8105C7092A756B540086F52E /* AppStorageTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageTutorial.swift; sourceTree = "<group>"; };
+		8105C73A2A770D4B0086F52E /* IntroViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViews.swift; sourceTree = "<group>"; };
+		8105C73C2A770EEB0086F52E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		8105C73E2A7E94800086F52E /* AsynImageTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsynImageTutorial.swift; sourceTree = "<group>"; };
+		8105C74D2A7FC7CB0086F52E /* ButtonStyleTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleTutorial.swift; sourceTree = "<group>"; };
+		8105C74F2A7FCAB70086F52E /* BadgesTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesTutorial.swift; sourceTree = "<group>"; };
+		815D010B2A6C1B45009F6577 /* ViewModelTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTutorial.swift; sourceTree = "<group>"; };
 		81A98EBF29F4A95B00BEC2DF /* IconTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTutorial.swift; sourceTree = "<group>"; };
 		81AA304E29EC1AAF00827035 /* SwiftUI_Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AA305129EC1AAF00827035 /* SwiftUI_TutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_TutorialApp.swift; sourceTree = "<group>"; };
@@ -83,6 +104,11 @@
 		81F011832A47B99F00840292 /* ToggleTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTutorial.swift; sourceTree = "<group>"; };
 		81F011852A51019600840292 /* PickerTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerTutorial.swift; sourceTree = "<group>"; };
 		81F011872A51085E00840292 /* ColorPickerTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerTutorial.swift; sourceTree = "<group>"; };
+		81F011892A510B6000840292 /* DatePickerTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerTutorial.swift; sourceTree = "<group>"; };
+		81F011942A5B66F900840292 /* TabViewTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewTutorial.swift; sourceTree = "<group>"; };
+		81F011962A63284600840292 /* SliderTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderTutorial.swift; sourceTree = "<group>"; };
+		81F011982A6330F500840292 /* OnAppearTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearTutorial.swift; sourceTree = "<group>"; };
+		81F0119A2A6433F700840292 /* TapGestureTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureTutorial.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +122,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8105C7392A770D230086F52E /* OnboardingViews */ = {
+			isa = PBXGroup;
+			children = (
+				8105C73A2A770D4B0086F52E /* IntroViews.swift */,
+				8105C73C2A770EEB0086F52E /* OnboardingView.swift */,
+			);
+			path = OnboardingViews;
+			sourceTree = "<group>";
+		};
 		81AA304529EC1AAF00827035 = {
 			isa = PBXGroup;
 			children = (
+				8105C73E2A7E94800086F52E /* AsynImageTutorial.swift */,
 				81AA305029EC1AAF00827035 /* SwiftUI_Tutorial */,
 				81AA304F29EC1AAF00827035 /* Products */,
 			);
@@ -149,6 +185,17 @@
 				81F011832A47B99F00840292 /* ToggleTutorial.swift */,
 				81F011852A51019600840292 /* PickerTutorial.swift */,
 				81F011872A51085E00840292 /* ColorPickerTutorial.swift */,
+				81F011892A510B6000840292 /* DatePickerTutorial.swift */,
+				81F011942A5B66F900840292 /* TabViewTutorial.swift */,
+				81F011962A63284600840292 /* SliderTutorial.swift */,
+				81F011982A6330F500840292 /* OnAppearTutorial.swift */,
+				81F0119A2A6433F700840292 /* TapGestureTutorial.swift */,
+				815D010B2A6C1B45009F6577 /* ViewModelTutorial.swift */,
+				8105C7072A7565A60086F52E /* EnviromentObjectTutorial.swift */,
+				8105C7092A756B540086F52E /* AppStorageTutorial.swift */,
+				8105C74D2A7FC7CB0086F52E /* ButtonStyleTutorial.swift */,
+				8105C74F2A7FCAB70086F52E /* BadgesTutorial.swift */,
+				8105C7392A770D230086F52E /* OnboardingViews */,
 				81AA305529EC1AB100827035 /* Assets.xcassets */,
 				81AA305729EC1AB100827035 /* Preview Content */,
 			);
@@ -236,6 +283,7 @@
 				81F010BE2A197FCE00840292 /* GridTutorial.swift in Sources */,
 				81F011432A2BD2C300840292 /* SheetTutorial.swift in Sources */,
 				81F010FC2A22E5B300840292 /* StateTutorial.swift in Sources */,
+				8105C74E2A7FC7CB0086F52E /* ButtonStyleTutorial.swift in Sources */,
 				81F0113D2A2BC95D00840292 /* AnimationTutorial.swift in Sources */,
 				81F010962A101D8D00840292 /* initAndEnumTutorial.swift in Sources */,
 				81F011842A47B99F00840292 /* ToggleTutorial.swift in Sources */,
@@ -246,19 +294,30 @@
 				81F010412A06861000840292 /* BackgroundAndOverlayTutorial.swift in Sources */,
 				81F010FE2A22E91100840292 /* ExtractedFunctionTutorial.swift in Sources */,
 				81F010432A068D3900840292 /* StacksTutorial.swift in Sources */,
+				81F011972A63284700840292 /* SliderTutorial.swift in Sources */,
 				81F010982A10228800840292 /* ForEachTutorial.swift in Sources */,
+				81F011952A5B66F900840292 /* TabViewTutorial.swift in Sources */,
 				81F010C22A198B2500840292 /* ButtonTutorial.swift in Sources */,
 				81F011862A51019600840292 /* PickerTutorial.swift in Sources */,
 				81F0103F2A06807100840292 /* FramesTutorial.swift in Sources */,
 				81F0114E2A3600DB00840292 /* NavigationViewTutorial.swift in Sources */,
+				8105C73B2A770D4B0086F52E /* IntroViews.swift in Sources */,
+				8105C73F2A7E94800086F52E /* AsynImageTutorial.swift in Sources */,
+				8105C73D2A770EEB0086F52E /* OnboardingView.swift in Sources */,
 				81F0109A2A1025FC00840292 /* ScrollViewTutorial.swift in Sources */,
 				81A98EC029F4A95B00BEC2DF /* IconTutorial.swift in Sources */,
+				81F0118A2A510B6000840292 /* DatePickerTutorial.swift in Sources */,
 				81AA306029EC273F00827035 /* TextTutorial.swift in Sources */,
 				81F011412A2BCFA300840292 /* TransitionTutorial.swift in Sources */,
 				81F0113F2A2BCD2400840292 /* AnimationTiming.swift in Sources */,
+				815D010C2A6C1B45009F6577 /* ViewModelTutorial.swift in Sources */,
 				81AA306829F475AD00827035 /* ColorsTutorial.swift in Sources */,
+				81F0119B2A6433F700840292 /* TapGestureTutorial.swift in Sources */,
+				81F011992A6330F500840292 /* OnAppearTutorial.swift in Sources */,
 				81F011522A3E6D4300840292 /* AlertTutorial.swift in Sources */,
 				81F011802A47B18D00840292 /* ContentMenuTutorial.swift in Sources */,
+				8105C7082A7565A60086F52E /* EnviromentObjectTutorial.swift in Sources */,
+				8105C70A2A756B540086F52E /* AppStorageTutorial.swift in Sources */,
 				81AA305229EC1AB000827035 /* SwiftUI_TutorialApp.swift in Sources */,
 				81F010C02A19892F00840292 /* SafeAreaTutorial.swift in Sources */,
 				81AA306229EC31EA00827035 /* ShapesTutorial.swift in Sources */,
@@ -266,6 +325,7 @@
 				81F011502A3604C200840292 /* ListTutorial.swift in Sources */,
 				81F011042A22F2A300840292 /* BindingTutorial.swift in Sources */,
 				81F011062A23793500840292 /* IfElseTutorial.swift in Sources */,
+				8105C7502A7FCAB80086F52E /* BadgesTutorial.swift in Sources */,
 				81F011822A47B3EB00840292 /* TextFieldTutorial.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

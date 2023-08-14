@@ -8,8 +8,22 @@
 import SwiftUI
 
 struct ColorPickerTutorial: View {
+    
+    @State var color: Color = Color.green
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            color
+                .edgesIgnoringSafeArea(.all)
+            
+            ColorPicker("Pick a Color", selection: $color)
+                .padding()
+                .background(Color.blue)
+                .cornerRadius(20)
+                .padding(.horizontal)
+            
+                
+        }
     }
 }
 
